@@ -25,14 +25,18 @@ const Footer = () => {
           {/* Right */}
           <div className="flex items-center md:justify-end gap-4">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/comccart/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-cream/10 hover:bg-cream/20 flex items-center justify-center transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="#"
+              href="https://calendar.app.google/58qqkkF4R7CzgheV6"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-cream/10 hover:bg-cream/20 flex items-center justify-center transition-colors"
               aria-label="Book a call"
             >

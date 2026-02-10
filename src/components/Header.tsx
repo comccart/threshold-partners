@@ -24,12 +24,14 @@ const Header = () => {
           >
             The Leadership Gap
           </button>
-          <button
-            onClick={() => scrollTo("footer")}
+          <a
+            href="https://calendar.app.google/58qqkkF4R7CzgheV6"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-5 py-2.5 rounded-md bg-orange text-navy font-heading font-semibold text-sm hover:opacity-90 transition-opacity"
           >
             Book a Call
-          </button>
+          </a>
         </nav>
 
         {/* Mobile toggle */}
@@ -47,12 +49,14 @@ const Header = () => {
           >
             The Leadership Gap
           </button>
-          <button
-            onClick={() => scrollTo("footer")}
-            className="w-full px-5 py-2.5 rounded-md bg-orange text-navy font-heading font-semibold text-sm"
+          <a
+            href="https://calendar.app.google/58qqkkF4R7CzgheV6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full px-5 py-2.5 rounded-md bg-orange text-navy font-heading font-semibold text-sm text-center"
           >
             Book a Call
-          </button>
+          </a>
         </div>
       )}
     </header>
