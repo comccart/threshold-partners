@@ -8,7 +8,7 @@ const testimonials = [
   {
     quote:
       "Conor brings a refreshing approach to understanding the way we do business, and uses that knowledge to suggest creative applications for AI to enhance our ways of working. His deep expertise coupled with a 'can-do' attitude have been instrumental in accelerating our digital transformation. He's helped us streamline internal processes - freeing up valuable time to prioritise the work that actually matters.",
-    name: "Waseem Iqbal",
+    name: "Waseem llyas",
     title: "Head of Digital, Global Diversity Practice",
   },
   {
@@ -23,18 +23,14 @@ const Testimonials = () => {
   return (
     <section className="bg-cream">
       <div className="max-w-6xl mx-auto px-6 py-20 md:py-28">
-        <h2 className="font-heading font-bold text-3xl md:text-4xl text-navy text-center mb-14">
-          What Clients Say
-        </h2>
+        <h2 className="font-heading font-bold text-3xl md:text-4xl text-navy text-center mb-14">What Clients Say</h2>
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((t) => (
             <div
               key={t.name}
               className="bg-card rounded-xl p-8 shadow-sm border border-cerulean/20 hover:border-cerulean/50 transition-colors"
             >
-              <p className="font-body text-navy leading-relaxed mb-6 italic">
-                "{t.quote}"
-              </p>
+              <p className="font-body text-navy leading-relaxed mb-6 italic">"{t.quote}"</p>
               <div>
                 <p className="font-heading font-medium text-chestnut">{t.name}</p>
                 <p className="font-body text-sm text-muted-foreground">{t.title}</p>
