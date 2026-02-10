@@ -1,3 +1,5 @@
+import ebookCover from "@/assets/ebook-cover.png";
+
 const LeadMagnet = () => {
   return <section id="lead-magnet" className="bg-card">
       <div className="max-w-4xl mx-auto px-6 py-20 md:py-28 text-center">
@@ -10,16 +12,7 @@ const LeadMagnet = () => {
           26 specific tensions and the leadership habits that need to change.
         </p>
 
-        {/* Book mockup */}
-        <div className="mx-auto mb-10 w-48 h-64 bg-navy rounded-lg shadow-lg flex items-center justify-center">
-          <div className="text-center px-4">
-            <p className="font-heading font-bold text-cream text-sm leading-tight mb-1">
-              THE LEADERSHIP GAP
-            </p>
-            <div className="w-8 h-0.5 bg-orange mx-auto mb-1" />
-            <p className="font-body text-cream/70 text-[10px]">Threshold Partners</p>
-          </div>
-        </div>
+        <img src={ebookCover} alt="The Leadership Gap e-book cover" className="mx-auto mb-10 w-56 md:w-64 drop-shadow-xl" />
 
         <a href="https://drive.google.com/file/d/1HEKPHYJrOoSKY-DHBaixTEAvOMTWW79k/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3.5 rounded-md bg-orange text-navy font-heading font-semibold text-base hover:opacity-90 transition-opacity">
           Download the Guide
