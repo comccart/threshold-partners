@@ -24,9 +24,14 @@ const LeadMagnet = () => {
           </div>
         </div>
 
-        <button className="px-8 py-3.5 rounded-md bg-orange text-navy font-heading font-semibold text-base hover:opacity-90 transition-opacity">
+        <a
+          href="https://drive.google.com/file/d/1HEKPHYJrOoSKY-DHBaixTEAvOMTWW79k/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-8 py-3.5 rounded-md bg-orange text-navy font-heading font-semibold text-base hover:opacity-90 transition-opacity"
+        >
           Download the Guide
-        </button>
+        </a>
       </div>
     </section>
   );

@@ -77,12 +77,14 @@ const Offer = () => {
         </div>
 
         <p className="font-body text-muted-foreground mb-8">(6-month minimum)</p>
-        <button
-          onClick={() => scrollTo("footer")}
-          className="px-8 py-3.5 rounded-md bg-orange text-navy font-heading font-semibold text-base hover:opacity-90 transition-opacity"
+        <a
+          href="https://calendar.app.google/58qqkkF4R7CzgheV6"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-8 py-3.5 rounded-md bg-orange text-navy font-heading font-semibold text-base hover:opacity-90 transition-opacity"
         >
           Book a Call
-        </button>
+        </a>
       </div>
     </section>
   );

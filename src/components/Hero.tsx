@@ -14,18 +14,22 @@ const Hero = () => {
           decide what to build, and ship working tools—without breaking what already works.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button
-            onClick={() => scrollTo("lead-magnet")}
+          <a
+            href="https://drive.google.com/file/d/1HEKPHYJrOoSKY-DHBaixTEAvOMTWW79k/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-8 py-3.5 rounded-md bg-orange text-navy font-heading font-semibold text-base hover:opacity-90 transition-opacity"
           >
             Download: The Leadership Gap
-          </button>
-          <button
-            onClick={() => scrollTo("footer")}
+          </a>
+          <a
+            href="https://calendar.app.google/58qqkkF4R7CzgheV6"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-8 py-3.5 rounded-md bg-orange text-navy font-heading font-semibold text-base hover:opacity-90 transition-opacity"
           >
             Book a Call
-          </button>
+          </a>
         </div>
       </div>
     </section>
